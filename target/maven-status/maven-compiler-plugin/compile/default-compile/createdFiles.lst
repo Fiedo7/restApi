@@ -1,0 +1,7 @@
+com\restApi\config\BeanConfiguration.class
+com\restApi\service\PilotService.class
+com\restApi\repository\PilotRepository.class
+com\restApi\Testowa.class
+com\restApi\RestApiApplication.class
+com\restApi\PilotComponent.class
+controller\PilotController.class
