@@ -4,6 +4,7 @@ package com.restApi;
 public class Testowa {
     private String name;
     private Integer wiek;
+    private String stan;
 
     public Testowa(String name, Integer wiek) {
         this.name = name;
