@@ -12,13 +12,13 @@ public class PilotComponent {
     @Autowired
     private PilotService pilotService;
 
-    @Bean
+/*    @Bean
     CommandLineRunner commandLineRunner(){
         return args -> {
             System.out.println(pilotService.returnName());
             System.out.println("KJazda");
         };
-    }
+    }*/
 
 
 }

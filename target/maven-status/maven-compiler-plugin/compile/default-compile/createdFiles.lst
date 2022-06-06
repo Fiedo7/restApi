@@ -5,3 +5,4 @@ com\restApi\Testowa.class
 com\restApi\RestApiApplication.class
 com\restApi\PilotComponent.class
 controller\PilotController.class
+com\restApi\PilotObject.class
