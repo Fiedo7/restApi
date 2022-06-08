@@ -21,7 +21,7 @@ public class PilotController {
         public List<PilotObject> getPilotObject() {
         return pilotService.getPilotObject();
     }
-    @PostMapping
+        @PostMapping
         public void savePilot (@RequestBody PilotObject pilotObject) {
         pilotService.addNewPilot(pilotObject);
         }
