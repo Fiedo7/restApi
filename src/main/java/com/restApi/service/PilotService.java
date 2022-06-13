@@ -18,11 +18,12 @@ public class PilotService {
         this.pilotRepository = pilotRepository;
     }
 
-    public List<PilotObject> getPilotObject(){
+    public List<PilotObject> getPilotObject(){ // TODO nazwa metody z dupy. co w przypadku jak lista będzie pusta? Powinieneś rzucić błąd.
+        // jak poczytasz o DTO to to jest miejsce gdzie należy zmapować endję na DTO. W przypadku listy dokonać iteracji i mapowania.
         return pilotRepository.findAll();
     }
 
-
+    // Brak metody findById, oraz savePilot()
 
 
 
